@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sites web professionnels et visibilité Google pour toutes les entreprises." id="metaDesc" />
+  <title>Mohamed Amine Chouiba — Développeur Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="container header-row">
+      <a href="#top" class="brand">
+        <span class="brand-mark">MC</span>
+        <span class="brand-name">Chouiba</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#work" data-i18n="nav_work">Projets</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="fr" aria-pressed="true">FR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-sm btn-accent" data-i18n="nav_cta">Démarrer un projet</a>
+        <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-glow"></div>
+        <div class="hero-grid-pattern"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-content reveal">
+          <div class="pill" data-i18n="hero_badge">Disponible pour nouveaux projets</div>
+          <p class="eyebrow" data-i18n="hero_eyebrow">Développeur web · Maroc</p>
+          <h1 data-i18n="hero_title">Des sites web qui génèrent des clients, pas juste des visites.</h1>
+          <p class="hero-text" data-i18n="hero_lead">Je conçois des sites ultra-rapides, optimisés pour Google et dopés à l'IA pour automatiser la croissance de votre entreprise locale.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-white" data-i18n="hero_cta1">Démarrer mon projet</a>
+            <a href="#services" class="btn btn-outline-light" data-i18n="hero_cta2">Voir les services</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-img-wrap">
+              <img src="assets/profile_enhanced.png" alt="Mohamed Amine Chouiba" width="400" height="500" />
+            </div>
+            <div class="profile-info">
+              <strong data-i18n="about_title">Mohamed Amine Chouiba</strong>
+              <span data-i18n="hero_role">Développeur Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Businesses — animated marquee -->
+    <section class="businesses-section" aria-label="Tous secteurs">
+      <div class="container businesses-header reveal">
+        <span class="tag" data-i18n="businesses_label">Tous secteurs</span>
+      </div>
+
+      <div class="marquee-group" aria-hidden="true">
+        <div class="marquee marquee--left">
+          <div class="marquee-track">
+            <div class="marquee-content">
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg><span data-i18n="biz_restaurants">Restaurants</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg><span data-i18n="biz_hotels">Hôtels & Riads</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg><span data-i18n="biz_car_rental">Location de voitures</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2a5 5 0 0 1 5 5v1a3 3 0 0 1 3 3v1a2 2 0 0 1-2 2h-1"/><path d="M8 13H7a2 2 0 0 1-2-2v-1a3 3 0 0 1 3-3V7a5 5 0 0 1 5-5"/><circle cx="9" cy="17" r="2"/><circle cx="15" cy="17" r="2"/></svg><span data-i18n="biz_dentists">Dentistes</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M6.5 6.5h11"/><path d="M6 10h12l-1 10H7L6 10z"/><path d="M9 6V4a3 3 0 0 1 6 0v2"/></svg><span data-i18n="biz_gyms">Salles de sport</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg><span data-i18n="biz_real_estate">Immobilier</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span data-i18n="biz_schools">Écoles & formations</span></span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg><span data-i18n="biz_restaurants">Restaurants</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg><span data-i18n="biz_hotels">Hôtels & Riads</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg><span data-i18n="biz_car_rental">Location de voitures</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2a5 5 0 0 1 5 5v1a3 3 0 0 1 3 3v1a2 2 0 0 1-2 2h-1"/><path d="M8 13H7a2 2 0 0 1-2-2v-1a3 3 0 0 1 3-3V7a5 5 0 0 1 5-5"/><circle cx="9" cy="17" r="2"/><circle cx="15" cy="17" r="2"/></svg><span data-i18n="biz_dentists">Dentistes</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M6.5 6.5h11"/><path d="M6 10h12l-1 10H7L6 10z"/><path d="M9 6V4a3 3 0 0 1 6 0v2"/></svg><span data-i18n="biz_gyms">Salles de sport</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/></svg><span data-i18n="biz_real_estate">Immobilier</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg><span data-i18n="biz_schools">Écoles & formations</span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="marquee marquee--right">
+          <div class="marquee-track">
+            <div class="marquee-content">
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><span data-i18n="biz_clinics">Cliniques</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span data-i18n="biz_salons">Salons & spas</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 3v18"/><path d="M8 7h8"/><path d="M6 11h12"/><path d="M4 15h16"/></svg><span data-i18n="biz_lawyers">Cabinets d'avocats</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span data-i18n="biz_ecommerce">E-commerce</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg><span data-i18n="biz_cafes">Cafés & boulangeries</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><span data-i18n="biz_travel">Agences de voyage</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg><span data-i18n="biz_construction">BTP & artisans</span></span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg><span data-i18n="biz_clinics">Cliniques</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span data-i18n="biz_salons">Salons & spas</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 3v18"/><path d="M8 7h8"/><path d="M6 11h12"/><path d="M4 15h16"/></svg><span data-i18n="biz_lawyers">Cabinets d'avocats</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span data-i18n="biz_ecommerce">E-commerce</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg><span data-i18n="biz_cafes">Cafés & boulangeries</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><span data-i18n="biz_travel">Agences de voyage</span></span>
+              <span class="biz-pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg><span data-i18n="biz_construction">BTP & artisans</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <header class="services-header reveal">
+          <span class="tag" data-i18n="services_label">Services</span>
+          <h2 data-i18n="services_title">Plus de clients. Moins d'effort.</h2>
+          <div class="services-keywords" aria-hidden="true">
+            <span data-i18n="svc_kw1">Sites web</span>
+            <span class="services-keywords-dot"></span>
+            <span data-i18n="svc_kw2">SEO</span>
+            <span class="services-keywords-dot"></span>
+            <span data-i18n="svc_kw3">Pub</span>
+            <span class="services-keywords-dot"></span>
+            <span data-i18n="svc_kw4">IA</span>
+            <span class="services-keywords-dot"></span>
+            <span data-i18n="svc_kw5">Hébergement</span>
+          </div>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-box service-box--web reveal">
+            <div class="service-visual">
+              <img src="assets/service-web-new.png" alt="" class="service-visual-img" loading="lazy" />
+              <div class="service-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M2 8h20"/></svg>
+              </div>
+            </div>
+            <div class="service-box-body">
+              <h3 data-i18n="svc1_title">Sites web</h3>
+              <p data-i18n="svc1_desc">Des sites modernes qui donnent une image professionnelle à votre entreprise et génèrent plus de demandes.</p>
+              <ul class="service-features">
+                <li data-i18n="svc1_p1">Modern, mobile-first design</li>
+                <li data-i18n="svc1_p2">Built to convert visitors into leads</li>
+                <li data-i18n="svc1_p3">WhatsApp & contact integrated</li>
+              </ul>
+              <a href="#contact" class="service-link" data-i18n="svc1_cta">Créer mon site</a>
+            </div>
+          </article>
+
+          <article class="service-box service-box--seo reveal">
+            <div class="service-visual">
+              <img src="assets/service-seo-new.png" alt="" class="service-visual-img" loading="lazy" />
+              <div class="service-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+              </div>
+            </div>
+            <div class="service-box-body">
+              <h3 data-i18n="svc2_title">SEO local</h3>
+              <p data-i18n="svc2_desc">Aidez vos clients à vous trouver sur Google.</p>
+              <ul class="service-features">
+                <li data-i18n="svc2_p1">Google Business Profile setup</li>
+                <li data-i18n="svc2_p2">Local search optimization</li>
+                <li data-i18n="svc2_p3">Maps & keyword visibility</li>
+              </ul>
+              <a href="#contact" class="service-link" data-i18n="svc2_cta">Améliorer mon SEO</a>
+            </div>
+          </article>
+
+          <article class="service-box service-box--ads reveal">
+            <div class="service-visual">
+              <img src="assets/service-ads-new.png" alt="" class="service-visual-img" loading="lazy" />
+              <div class="service-platforms" aria-hidden="true">
+                <span>Meta</span>
+                <span>TikTok</span>
+                <span>Snap</span>
+              </div>
+              <div class="service-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="4"/></svg>
+              </div>
+            </div>
+            <div class="service-box-body">
+              <h3 data-i18n="svc3_title">Publicité payante</h3>
+              <p data-i18n="svc3_desc">Touchez les bons clients sur Meta, TikTok et Snapchat avec des campagnes conçues pour générer des leads.</p>
+              <ul class="service-features">
+                <li data-i18n="svc3_p1">Meta & Instagram ads</li>
+                <li data-i18n="svc3_p2">TikTok ad campaigns</li>
+                <li data-i18n="svc3_p3">Snapchat ads setup</li>
+              </ul>
+              <a href="#contact" class="service-link" data-i18n="svc3_cta">Lancer mes pubs</a>
+            </div>
+          </article>
+
+          <article class="service-box service-box--ai reveal">
+            <div class="service-visual">
+              <img src="assets/service-ai-new.png" alt="" class="service-visual-img" loading="lazy" />
+              <div class="service-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2a4 4 0 0 1 4 4v1a3 3 0 0 1 3 3v1a2 2 0 0 1-2 2h-1"/><path d="M8 13H7a2 2 0 0 1-2-2v-1a3 3 0 0 1 3-3V6a4 4 0 0 1 4-4"/><circle cx="9" cy="17" r="2"/><circle cx="15" cy="17" r="2"/><path d="M9 17h6"/></svg>
+              </div>
+            </div>
+            <div class="service-box-body">
+              <h3 data-i18n="svc4_title">Automatisation IA</h3>
+              <p data-i18n="svc4_desc">Automatisez les tâches répétitives et gagnez du temps avec des workflows intelligents.</p>
+              <ul class="service-features">
+                <li data-i18n="svc4_p1">Chatbots & auto-replies</li>
+                <li data-i18n="svc4_p2">Lead capture workflows</li>
+                <li data-i18n="svc4_p3">Task & email automation</li>
+              </ul>
+              <a href="#contact" class="service-link" data-i18n="svc4_cta">Automatiser mon activité</a>
+            </div>
+          </article>
+
+          <article class="service-box service-box--hosting reveal">
+            <div class="service-visual">
+              <img src="assets/service-hosting-new.png" alt="" class="service-visual-img" loading="lazy" />
+              <div class="service-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1" fill="currentColor"/><circle cx="6" cy="18" r="1" fill="currentColor"/></svg>
+              </div>
+            </div>
+            <div class="service-box-body">
+              <h3 data-i18n="svc5_title">Hébergement & domaines</h3>
+              <p data-i18n="svc5_desc">De l'achat du domaine au déploiement, je m'occupe de tout.</p>
+              <ul class="service-features">
+                <li data-i18n="svc5_p1">Domain name registration</li>
+                <li data-i18n="svc5_p2">Fast, secure hosting setup</li>
+                <li data-i18n="svc5_p3">Launch & go-live support</li>
+              </ul>
+              <a href="#contact" class="service-link" data-i18n="svc5_cta">Mettre mon site en ligne</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-gray" id="work">
+      <div class="container">
+        <header class="section-header center reveal">
+          <span class="tag" data-i18n="work_label">Réalisations</span>
+          <h2 data-i18n="work_title">Projets</h2>
+          <p data-i18n="work_desc">Quelques sites que j'ai réalisés. Les liens seront ajoutés bientôt.</p>
+        </header>
+
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project-img">
+              <img src="assets/project-1.png" alt="" loading="lazy" />
+              <span class="project-soon" data-i18n="work_soon">Bientôt en ligne</span>
+            </div>
+            <div class="project-body">
+              <span class="project-cat" data-i18n="work_p1_type">Entreprise</span>
+              <h3 data-i18n="work_p1_title">Projet client</h3>
+              <p data-i18n="work_p1_desc">Site vitrine professionnel avec sections services et contact.</p>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-img">
+              <img src="assets/project-2.png" alt="" loading="lazy" />
+              <span class="project-soon" data-i18n="work_soon">Bientôt en ligne</span>
+            </div>
+            <div class="project-body">
+              <span class="project-cat" data-i18n="work_p2_type">Entreprise</span>
+              <h3 data-i18n="work_p2_title">Projet client</h3>
+              <p data-i18n="work_p2_desc">Landing page moderne, optimisée mobile et conversion.</p>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-img">
+              <img src="assets/project-3.png" alt="" loading="lazy" />
+              <span class="project-soon" data-i18n="work_soon">Bientôt en ligne</span>
+            </div>
+            <div class="project-body">
+              <span class="project-cat" data-i18n="work_p3_type">Entreprise</span>
+              <h3 data-i18n="work_p3_title">Projet client</h3>
+              <p data-i18n="work_p3_desc">Présentation complète avec intégration Google Maps.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section">
+      <div class="container about-row reveal">
+        <div class="about-photo">
+          <img src="assets/profile_enhanced.png" alt="Mohamed Amine Chouiba" loading="lazy" />
+        </div>
+        <div class="about-text">
+          <span class="tag" data-i18n="about_label">Qui suis-je</span>
+          <h2 data-i18n="about_title">Mohamed Amine Chouiba</h2>
+          <p class="about-lead" data-i18n="about_lead">Développeur web basé au Maroc. J'aide les entreprises de tous secteurs à avoir une présence en ligne sérieuse.</p>
+          <p data-i18n="about_p">Vous travaillez directement avec moi. Pas d'agence, pas d'intermédiaire.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <h2 data-i18n="cta_title">Prêt à lancer votre présence en ligne ?</h2>
+        <p data-i18n="cta_desc">Un message suffit. Décrivez votre activité et on en parle.</p>
+        <a href="https://wa.me/212684172231" class="btn btn-white btn-lg" target="_blank" rel="noopener" data-i18n="cta_btn">Contactez-moi sur WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="tag tag-light" data-i18n="contact_label">Contact</span>
+          <h2 data-i18n="contact_title">Parlons de votre projet</h2>
+          <p data-i18n="contact_desc">Remplissez le formulaire ou contactez-moi directement.</p>
+          <div class="channels">
+            <a href="mailto:mohamedaminechouiba1945@gmail.com" class="channel">
+              <span class="channel-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+              </span>
+              <div>
+                <span class="channel-label" data-i18n="ch_email">Email</span>
+                <span class="channel-val">mohamedaminechouiba1945@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/212684172231" class="channel" target="_blank" rel="noopener" id="whatsappLink">
+              <span class="channel-icon channel-icon--wa">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </span>
+              <div>
+                <span class="channel-label" data-i18n="ch_phone">WhatsApp / Téléphone</span>
+                <span class="channel-val">06 84 17 22 31</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name" data-i18n="form_name">Nom</label>
+            <input type="text" id="name" name="name" autocomplete="name" required data-i18n-placeholder="form_name_ph" placeholder="Votre nom" />
+          </div>
+          <div class="field">
+            <label for="business" data-i18n="form_business">Activité / Entreprise</label>
+            <input type="text" id="business" name="business" data-i18n-placeholder="form_business_ph" placeholder="Ex : Restaurant, clinique, boutique…" />
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="form_message">Message</label>
+            <textarea id="message" name="message" rows="5" required data-i18n-placeholder="form_message_ph" placeholder="Décrivez ce dont vous avez besoin…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent btn-full" data-i18n="form_submit">Envoyer via WhatsApp</button>
+          <p class="form-note" data-i18n="form_note">Le formulaire ouvre WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>&copy; <span id="year"></span> <span data-i18n="footer_copy">Mohamed Amine Chouiba</span></p>
+      <a href="#top" class="footer-top" id="backTop" data-i18n="footer_top">Haut de page</a>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/212684172231" class="floating-wa" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
