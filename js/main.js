@@ -10,7 +10,10 @@
   const metaDesc = document.getElementById('metaDesc');
   const langBtns = document.querySelectorAll('.lang-btn');
 
-  let currentLang = localStorage.getItem('portfolio-lang') || 'fr';
+  const SUPPORTED_LANGS = ['fr', 'en', 'ar'];
+  const LANG_STORAGE_KEY = 'maroc-web-lang';
+  const storedLang = localStorage.getItem(LANG_STORAGE_KEY);
+  let currentLang = SUPPORTED_LANGS.includes(storedLang) ? storedLang : 'fr';
   let activePortfolioFilter = 'all';
 
   const CAT_KEYS = {
@@ -176,7 +179,7 @@
   function setLanguage(lang) {
     if (!I18N[lang]) return;
     currentLang = lang;
-    localStorage.setItem('portfolio-lang', lang);
+    localStorage.setItem(LANG_STORAGE_KEY, lang);
     document.documentElement.lang = lang;
     document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
 
