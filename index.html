@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/logo-maroc-web.webp" type="image/webp" />
+  <link rel="apple-touch-icon" href="assets/logo-maroc-web.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -15,7 +17,10 @@
   <header class="header scrolled" id="header">
     <div class="container header-row">
       <a href="#top" class="brand">
-        <span class="brand-mark">MW</span>
+        <picture class="brand-logo-wrap">
+          <source srcset="assets/logo-maroc-web.webp" type="image/webp" />
+          <img src="assets/logo-maroc-web.png" alt="Maroc Web" class="brand-logo" width="40" height="40" />
+        </picture>
         <span class="brand-name">Maroc Web</span>
       </a>
       <nav class="nav" id="nav">
@@ -374,7 +379,10 @@
       <div class="footer-main">
         <div class="footer-brand">
           <a href="#top" class="brand">
-            <span class="brand-mark">MW</span>
+            <picture class="brand-logo-wrap">
+              <source srcset="assets/logo-maroc-web.webp" type="image/webp" />
+              <img src="assets/logo-maroc-web.png" alt="Maroc Web" class="brand-logo" width="40" height="40" />
+            </picture>
             <span class="brand-name">Maroc Web</span>
           </a>
           <p data-i18n="footer_tagline">Sites web & SEO pour entreprises locales au Maroc.</p>
