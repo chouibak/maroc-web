@@ -1,38 +1,76 @@
-/**
- * Portfolio — add your live sites here.
- * category: restaurant | salon | clinic | dentist | hotel | realestate | other
- * url: leave empty to show "Coming soon"
- */
 const PORTFOLIO = [
   {
-    id: 'p1',
+    id: 'bella',
+    category: 'car_rental',
+    url: 'https://bellavidacar.vercel.app/',
+    i18n: 'bella',
+  },
+  {
+    id: 'wonderful',
+    category: 'car_rental',
+    url: 'https://wonderfulcar.vercel.app/',
+    i18n: 'wonderful',
+  },
+  {
+    id: 'tencars',
+    category: 'car_rental',
+    url: 'https://10tencars.marocweb.site/',
+    i18n: 'tencars',
+  },
+  {
+    id: 'culture',
     category: 'restaurant',
-    image: 'assets/project-1.png',
-    url: '',
-    i18n: 'p1',
+    url: 'https://culture-box.marocweb.site/',
+    i18n: 'culture',
   },
   {
-    id: 'p2',
-    category: 'salon',
-    image: 'assets/project-2.png',
-    url: '',
-    i18n: 'p2',
+    id: 'nomai',
+    category: 'restaurant',
+    url: 'https://nomai.marocweb.site/',
+    i18n: 'nomai',
   },
   {
-    id: 'p3',
+    id: 'breva',
+    category: 'restaurant',
+    url: 'https://breva.marocweb.site/',
+    i18n: 'breva',
+  },
+  {
+    id: 'tazi',
     category: 'dentist',
-    image: 'assets/project-3.png',
-    url: '',
-    i18n: 'p3',
+    url: 'https://centre-dentaire-tazi.marocweb.site/',
+    i18n: 'tazi',
+  },
+  {
+    id: 'zahri',
+    category: 'dentist',
+    url: 'https://cabinet-dentaire-zahri-douae.marocweb.site/',
+    i18n: 'zahri',
+  },
+  {
+    id: 'premium',
+    category: 'dentist',
+    url: 'https://centre-dentaire-premium.marocweb.site/',
+    i18n: 'premium',
+  },
+  {
+    id: 'fezos',
+    category: 'salon',
+    url: 'https://beauty-salon-fes.marocweb.site/',
+    i18n: 'fezos',
+  },
+  {
+    id: 'blossom',
+    category: 'salon',
+    url: 'https://blossom-beauty-lounge.marocweb.site/',
+    i18n: 'blossom',
   },
 ];
 
 const PORTFOLIO_FILTERS = [
   'all',
+  'car_rental',
   'restaurant',
-  'salon',
-  'clinic',
   'dentist',
-  'hotel',
-  'other',
+  'salon',
 ];

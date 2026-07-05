@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Sites web, SEO, publicité et automatisation IA pour entreprises locales au Maroc." id="metaDesc" />
-  <title>Mohamed Amine Chouiba — Développeur Web</title>
+  <title>Maroc Web — Développeur Web</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -15,13 +15,13 @@
   <header class="header scrolled" id="header">
     <div class="container header-row">
       <a href="#top" class="brand">
-        <span class="brand-mark">MC</span>
-        <span class="brand-name">Chouiba</span>
+        <span class="brand-mark">MW</span>
+        <span class="brand-name">Maroc Web</span>
       </a>
       <nav class="nav" id="nav">
         <a href="#services" data-i18n="nav_services">Services</a>
         <a href="#work" data-i18n="nav_work">Projets</a>
-        <a href="#why" data-i18n="nav_why">Pourquoi moi</a>
+        <a href="#why" data-i18n="nav_why">Pourquoi nous</a>
         <a href="#contact" data-i18n="nav_contact">Contact</a>
         <div class="lang-switch" role="group" aria-label="Language">
           <button type="button" class="lang-btn active" data-lang="fr" aria-pressed="true">FR</button>
@@ -43,20 +43,62 @@
 
     <!-- Hero -->
     <section class="hero" id="top">
+      <div class="hero-bg">
+        <picture>
+          <source srcset="assets/hero-customer-search.webp" type="image/webp">
+          <img src="assets/hero-customer-search.png" alt="Client cherchant un service sur son téléphone" loading="eager" fetchpriority="high">
+        </picture>
+        <div class="hero-overlay"></div>
+      </div>
       <div class="container hero-inner">
         <div class="hero-content reveal">
-          <div class="pill pill--alert" data-i18n="hero_badge">Vous perdez des clients chaque jour</div>
-          <p class="eyebrow" data-i18n="hero_eyebrow">Développeur web · Maroc</p>
-          <h1><span data-i18n="hero_title">Vos concurrents vous volent des clients sur Google.</span> <span class="text-accent" data-i18n="hero_title_accent">On arrête ça.</span></h1>
-          <p class="hero-text" data-i18n="hero_lead">Pas de site, invisible sur Google, zéro pub qui convertit — chaque jour sans présence en ligne, c'est de l'argent qui part chez vos concurrents.</p>
-          <ul class="hero-pains">
-            <li data-i18n="hero_pain1">Invisible quand on vous cherche sur Google</li>
-            <li data-i18n="hero_pain2">Site lent ou inexistant sur mobile</li>
-            <li data-i18n="hero_pain3">Aucun système pour capturer des leads</li>
-          </ul>
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span data-i18n="hero_badge">Sites web & SEO · Maroc</span>
+          </div>
+          <h1>
+            <span data-i18n="hero_title">Vos clients vous cherchent sur Google.</span>
+            <span class="text-accent" data-i18n="hero_title_accent">Soyez celui qu'ils trouvent.</span>
+          </h1>
+          <p class="hero-text" data-i18n="hero_lead">Sites rapides, visibles et pensés mobile. Plus de visibilité, plus de contacts, plus de clients — sans agence, sans intermédiaire.</p>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <strong data-i18n="hero_stat1_num">97%</strong>
+              <span data-i18n="hero_stat1_label">Cherchent sur Google avant d'appeler</span>
+            </div>
+            <div class="hero-stat">
+              <strong data-i18n="hero_stat2_num">75%</strong>
+              <span data-i18n="hero_stat2_label">Ne cliquent que sur le top 3</span>
+            </div>
+            <div class="hero-stat">
+              <strong data-i18n="hero_stat3_num">80%</strong>
+              <span data-i18n="hero_stat3_label">Comparent sur mobile</span>
+            </div>
+            <div class="hero-stat">
+              <strong data-i18n="hero_stat4_num">24/7</strong>
+              <span data-i18n="hero_stat4_label">Vos concurrents captent vos clients</span>
+            </div>
+          </div>
+          
+          <div class="hero-features">
+            <div class="feature-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="hero_feat1">Top Google local</span>
+            </div>
+            <div class="feature-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="hero_feat2">100% mobile-first</span>
+            </div>
+            <div class="feature-pill">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span data-i18n="hero_feat3">Leads WhatsApp intégrés</span>
+            </div>
+          </div>
+
           <div class="hero-btns">
-            <a href="#contact" class="btn btn-accent btn-lg" data-i18n="hero_cta1">Corriger ça maintenant</a>
-            <a href="#services" class="btn btn-outline" data-i18n="hero_cta2">Voir la solution</a>
+            <a href="#contact" class="btn btn-accent btn-lg" data-i18n="hero_cta1">Démarrer mon projet</a>
+            <a href="#services" class="btn btn-outline-light" data-i18n="hero_cta2">Voir les services</a>
           </div>
         </div>
       </div>
@@ -162,7 +204,7 @@
         <header class="section-header center reveal">
           <span class="tag" data-i18n="work_label">Portfolio</span>
           <h2 data-i18n="work_title">Des sites livrés, par secteur</h2>
-          <p data-i18n="work_desc">Filtrez par activité — restaurants, salons, cliniques, dentistes et plus.</p>
+          <p data-i18n="work_desc">Filtrez par activité — location, restaurants, dentistes, salons.</p>
         </header>
 
         <div class="portfolio-filters reveal" id="portfolioFilters" role="tablist" aria-label="Filtrer les projets"></div>
@@ -175,14 +217,14 @@
     <section class="section why-section" id="why">
       <div class="container">
         <header class="section-header center reveal">
-          <span class="tag" data-i18n="why_label">Pourquoi moi</span>
-          <h2 data-i18n="why_title">Pas une agence. Un partenaire qui comprend votre business.</h2>
+          <span class="tag" data-i18n="why_label">Pourquoi nous</span>
+          <h2 data-i18n="why_title">Un partenaire qui comprend votre business.</h2>
         </header>
         <div class="why-grid">
           <article class="why-card reveal">
             <span class="why-num">01</span>
             <h3 data-i18n="why1_title">Direct, sans intermédiaire</h3>
-            <p data-i18n="why1_desc">Vous parlez à la personne qui construit votre site. Pas de commercial, pas de délais inutiles.</p>
+            <p data-i18n="why1_desc">Vous parlez directement à l'équipe qui construit votre site. Pas de commercial, pas de délais inutiles.</p>
           </article>
           <article class="why-card reveal">
             <span class="why-num">02</span>
@@ -329,21 +371,27 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#top" class="brand">
-          <span class="brand-mark">MC</span>
-          <span class="brand-name">Chouiba</span>
-        </a>
-        <p data-i18n="footer_tagline">Sites web & croissance digitale pour entreprises locales.</p>
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="#top" class="brand">
+            <span class="brand-mark">MW</span>
+            <span class="brand-name">Maroc Web</span>
+          </a>
+          <p data-i18n="footer_tagline">Sites web & SEO pour entreprises locales au Maroc.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#services" data-i18n="nav_services">Services</a>
+          <a href="#work" data-i18n="nav_work">Projets</a>
+          <a href="#why" data-i18n="nav_why">Pourquoi nous</a>
+          <a href="#contact" data-i18n="nav_contact">Contact</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="mailto:mohamedaminechouiba1945@gmail.com" data-i18n="footer_email">mohamedaminechouiba1945@gmail.com</a>
+          <a href="https://wa.me/212684172231" target="_blank" rel="noopener" data-i18n="footer_wa">WhatsApp · 06 84 17 22 31</a>
+        </div>
       </div>
-      <nav class="footer-nav">
-        <a href="#services" data-i18n="nav_services">Services</a>
-        <a href="#work" data-i18n="nav_work">Projets</a>
-        <a href="#why" data-i18n="nav_why">Pourquoi moi</a>
-        <a href="#contact" data-i18n="nav_contact">Contact</a>
-      </nav>
       <div class="footer-bottom">
-        <p>&copy; <span id="year"></span> <span data-i18n="footer_copy">Mohamed Amine Chouiba</span></p>
+        <p>&copy; <span id="year"></span> <span data-i18n="footer_copy">Maroc Web</span>. <span data-i18n="footer_rights">Tous droits réservés.</span></p>
         <a href="#top" class="footer-top" id="backTop" data-i18n="footer_top">Haut de page</a>
       </div>
     </div>

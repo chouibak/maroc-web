@@ -14,6 +14,7 @@
   let activePortfolioFilter = 'all';
 
   const CAT_KEYS = {
+    car_rental: 'work_cat_car_rental',
     restaurant: 'work_cat_restaurant',
     salon: 'work_cat_salon',
     clinic: 'work_cat_clinic',
@@ -66,14 +67,17 @@
         ? `<a href="${project.url}" class="project-link" target="_blank" rel="noopener">${t('work_visit')}</a>`
         : '';
 
-      const imgInner = hasUrl
-        ? `<a href="${project.url}" target="_blank" rel="noopener" class="project-img-link"><img src="${project.image}" alt="${title}" loading="lazy" /></a>`
-        : `<img src="${project.image}" alt="${title}" loading="lazy" />`;
+      const mediaInner = hasUrl
+        ? `<div class="project-preview">
+            <iframe src="${project.url}" title="${title}" loading="lazy" tabindex="-1"></iframe>
+            <a href="${project.url}" class="project-preview-overlay" target="_blank" rel="noopener" aria-label="${t('work_visit')} ${title}"></a>
+          </div>`
+        : `<img src="${project.image || 'assets/project-1.png'}" alt="${title}" loading="lazy" />`;
 
       return `
         <article class="project reveal visible" data-category="${project.category}">
           <div class="project-img">
-            ${imgInner}
+            ${mediaInner}
             ${soonBadge}
           </div>
           <div class="project-body">
