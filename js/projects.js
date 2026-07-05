@@ -6,24 +6,6 @@ const PORTFOLIO = [
     i18n: 'bella',
   },
   {
-    id: 'wonderful',
-    category: 'car_rental',
-    url: 'https://wonderfulcar.vercel.app/',
-    i18n: 'wonderful',
-  },
-  {
-    id: 'tencars',
-    category: 'car_rental',
-    url: 'https://10tencars.marocweb.site/',
-    i18n: 'tencars',
-  },
-  {
-    id: 'culture',
-    category: 'restaurant',
-    url: 'https://culture-box.marocweb.site/',
-    i18n: 'culture',
-  },
-  {
     id: 'nomai',
     category: 'restaurant',
     url: 'https://nomai.marocweb.site/',
