@@ -91,7 +91,7 @@
     }).join('');
 
     if (!items.length) {
-      grid.innerHTML = `<p class="portfolio-empty">${currentLang === 'fr' ? 'Aucun projet dans cette catégorie pour le moment.' : 'No projects in this category yet.'}</p>`;
+      grid.innerHTML = `<p class="portfolio-empty">${t('work_empty')}</p>`;
     }
   }
 
@@ -100,6 +100,7 @@
     currentLang = lang;
     localStorage.setItem('portfolio-lang', lang);
     document.documentElement.lang = lang;
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
 
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.dataset.i18n;
