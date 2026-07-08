@@ -1402,6 +1402,41 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   word-break: break-all;
 }
 
+.phone-channel .channel-label {
+  margin-bottom: 0.35rem;
+}
+
+.phone-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.phone-action {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border-radius: 100px;
+  border: 1px solid var(--brand-glass-border);
+  transition: background 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.phone-action:hover {
+  transform: translateY(-1px);
+}
+
+.phone-action--wa {
+  background: var(--wa-green-muted);
+  color: var(--wa-green);
+}
+
+.phone-action--call {
+  background: var(--accent-muted);
+  color: var(--brand-300);
+}
+
 .contact-form {
   background: var(--white);
   border-radius: var(--radius-lg);
