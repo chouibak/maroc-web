@@ -895,6 +895,77 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   object-fit: cover;
 }
 
+.service-benefits {
+  max-width: 56rem;
+  margin: 2rem auto 1.5rem;
+  padding: 0 1rem;
+}
+
+.service-benefits-header {
+  text-align: center;
+  max-width: 40rem;
+  margin: 0 auto 1.5rem;
+}
+
+.service-benefits-header h3 {
+  font-size: clamp(1.35rem, 4vw, 1.85rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--navy);
+  margin-bottom: 0.65rem;
+  line-height: 1.2;
+}
+
+.service-benefits-header p {
+  font-size: 0.95rem;
+  color: var(--gray-500);
+  line-height: 1.65;
+}
+
+.service-benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+.service-benefit-card {
+  background: var(--white);
+  border: 1px solid var(--brand-border);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.25rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.service-benefit-card:hover {
+  border-color: var(--brand-border-strong);
+  box-shadow: var(--shadow);
+}
+
+.service-benefit-card h4 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+
+.service-benefit-card p {
+  font-size: 0.88rem;
+  color: var(--gray-500);
+  line-height: 1.6;
+}
+
+[dir="rtl"] .service-benefit-card {
+  text-align: right;
+}
+
+@media (min-width: 640px) {
+  .service-benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
 /* ===== Service channel icons ===== */
 .service-channel-icons {
   display: flex;
