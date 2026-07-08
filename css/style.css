@@ -222,14 +222,45 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 }
 
 @media (max-width: 959px) {
+  .header-row {
+    position: relative;
+    justify-content: flex-end;
+  }
+
   .brand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex: none;
     min-width: 0;
-    flex: 1;
+    z-index: 1;
+  }
+
+  .header-actions {
+    position: relative;
+    z-index: 2;
   }
 
   .brand-logo {
     height: 32px;
-    max-width: min(58vw, 220px);
+    max-width: min(52vw, 200px);
+  }
+}
+
+[dir="rtl"] .header-row {
+  justify-content: flex-end;
+}
+
+@media (max-width: 959px) {
+  [dir="rtl"] .header-row {
+    justify-content: flex-start;
+  }
+
+  [dir="rtl"] .brand {
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
   }
 }
 
