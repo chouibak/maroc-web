@@ -165,12 +165,13 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
+  flex-shrink: 0;
 }
 
 .header-cta { display: none; }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .header-cta { display: inline-flex; }
 }
 
@@ -211,10 +212,25 @@ button { font: inherit; cursor: pointer; border: none; background: none; }
   width: 40px;
   height: 40px;
   padding: 8px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
 }
 
 @media (min-width: 960px) {
   .burger { display: none; }
+}
+
+@media (max-width: 959px) {
+  .brand {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .brand-logo {
+    height: 32px;
+    max-width: min(58vw, 220px);
+  }
 }
 
 .burger span {
