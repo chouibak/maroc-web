@@ -24,6 +24,7 @@
     dentist: 'work_cat_dentist',
     hotel: 'work_cat_hotel',
     realestate: 'work_cat_realestate',
+    travel: 'work_cat_travel',
     other: 'work_cat_other',
   };
 

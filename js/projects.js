@@ -47,6 +47,12 @@ const PORTFOLIO = [
     url: 'https://blossom-beauty-lounge.marocweb.site/',
     i18n: 'blossom',
   },
+  {
+    id: 'aura',
+    category: 'travel',
+    url: 'https://auranomade.marocweb.site/',
+    i18n: 'aura',
+  },
 ];
 
 const PORTFOLIO_FILTERS = [
@@ -55,4 +61,5 @@ const PORTFOLIO_FILTERS = [
   'restaurant',
   'dentist',
   'salon',
+  'travel',
 ];
