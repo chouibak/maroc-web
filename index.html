@@ -11,7 +11,7 @@
   <link rel="icon" href="assets/logo-maroc-web.webp" type="image/webp" />
   <link rel="icon" href="assets/logo-maroc-web.png" type="image/png" />
   <link rel="apple-touch-icon" href="assets/logo-maroc-web.png" />
-  <link rel="stylesheet" href="css/style.css?v=20260712g" />
+  <link rel="stylesheet" href="css/style.css?v=20260712m" />
   <script>
     (function () {
       var supported = { fr: 1, en: 1, ar: 1 };
@@ -132,6 +132,30 @@
       </div>
     </section>
 
+    <section class="platforms-strip" aria-label="Plateformes">
+      <div class="container platforms-strip-inner">
+        <p class="platforms-strip-label" data-i18n="platforms_label">Publicité ciblée là où vos clients passent leur temps</p>
+        <div class="platforms-icons">
+          <span class="platform-icon platform-icon--fb" title="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h2V5.5h-2c-2.4 0-4 1.5-4 4V12H8v3h2v7h3v-7h2.2l.8-3H13v-2.2c0-.6.4-1 1-1z"/></svg>
+            <span>Facebook</span>
+          </span>
+          <span class="platform-icon platform-icon--ig" title="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </span>
+          <span class="platform-icon platform-icon--go" title="Google">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            <span>Google</span>
+          </span>
+          <span class="platform-icon platform-icon--tt" title="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.5 3c.4 2.2 1.7 3.8 3.8 4.4v2.6c-1.4-.1-2.7-.5-3.8-1.3v5.7a5.7 5.7 0 1 1-5.7-5.7c.3 0 .6 0 .9.1v2.8a2.9 2.9 0 1 0 2 2.8V3h2.8z"/></svg>
+            <span>TikTok</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
     <!-- Businesses marquee -->
     <section class="businesses-section" data-i18n-aria-label="businesses_label" aria-label="Tous secteurs">
       <div class="container businesses-header reveal">
@@ -195,40 +219,52 @@
         </header>
         <div class="services-overview">
           <article class="svc-card reveal">
-            <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 20h10"/><path d="M12 4v14"/></svg></div>
+            <div class="svc-card-top">
+              <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 20h10"/><path d="M12 4v14"/></svg></div>
+            </div>
             <h3 data-i18n="svc1_title">Création de sites web & plateformes web</h3>
-            <p data-i18n="svc1_desc">Conception moderne, rapide et mobile-first pour convertir vos visiteurs en demandes WhatsApp.</p>
-            <a href="web-platforms/index.html" class="btn btn-outline btn-sm svc-details-btn" data-i18n="svc_details_btn">Détails</a>
+            <p data-i18n="svc1_desc">Sites modernes, rapides et optimisés mobile-first pour transformer les visiteurs en demandes WhatsApp.</p>
+            <a href="web-platforms/index.html" class="svc-details-btn" data-i18n="svc_details_btn">Détails</a>
           </article>
           <article class="svc-card reveal">
-            <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 8a6 6 0 0 1-12 0"/><rect x="4" y="14" width="6" height="8" rx="2"/><rect x="14" y="14" width="6" height="8" rx="2"/></svg></div>
+            <div class="svc-card-top">
+              <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M16 8a6 6 0 0 1-12 0"/><rect x="4" y="14" width="6" height="8" rx="2"/><rect x="14" y="14" width="6" height="8" rx="2"/></svg></div>
+            </div>
             <h3 data-i18n="svc2_title">Gestion des réseaux sociaux</h3>
-            <p data-i18n="svc2_desc">Planning de contenu, publication et interaction sur Facebook, Instagram et TikTok pour générer des leads.</p>
-            <a href="social-media/index.html" class="btn btn-outline btn-sm svc-details-btn" data-i18n="svc_details_btn">Détails</a>
+            <p data-i18n="svc2_desc">Plan éditorial, publication et interaction sur Facebook, Instagram et TikTok pour générer des leads.</p>
+            <a href="social-media/index.html" class="svc-details-btn" data-i18n="svc_details_btn">Détails</a>
           </article>
           <article class="svc-card reveal">
-            <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 11l18-8-8 18-2-7-8-3z"/><path d="M14 9l-3 3"/></svg></div>
+            <div class="svc-card-top">
+              <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M3 11l18-8-8 18-2-7-8-3z"/><path d="M14 9l-3 3"/></svg></div>
+            </div>
             <h3 data-i18n="svc3_title">Publicité (Meta & Google)</h3>
-            <p data-i18n="svc3_desc">Campagnes ciblées sur Facebook, Instagram, TikTok et Google pour augmenter votre visibilité et vos demandes.</p>
-            <a href="advertising/index.html" class="btn btn-outline btn-sm svc-details-btn" data-i18n="svc_details_btn">Détails</a>
+            <p data-i18n="svc3_desc">Campagnes ciblées sur Facebook, Instagram, TikTok et Google pour augmenter la visibilité et les demandes.</p>
+            <a href="advertising/index.html" class="svc-details-btn" data-i18n="svc_details_btn">Détails</a>
           </article>
           <article class="svc-card reveal">
-            <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/><path d="M8 16l-2 2"/></svg></div>
+            <div class="svc-card-top">
+              <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/><path d="M8 16l-2 2"/></svg></div>
+            </div>
             <h3 data-i18n="svc4_title">Maintenance & Support</h3>
-            <p data-i18n="svc4_desc">Mises à jour, sauvegardes, résolution de bugs et support réactif pour garder votre activité en ligne.</p>
-            <a href="maintenance-support/index.html" class="btn btn-outline btn-sm svc-details-btn" data-i18n="svc_details_btn">Détails</a>
+            <p data-i18n="svc4_desc">Mises à jour, sauvegardes, corrections et support réactif pour garder votre site fiable et performant.</p>
+            <a href="maintenance-support/index.html" class="svc-details-btn" data-i18n="svc_details_btn">Détails</a>
           </article>
           <article class="svc-card reveal">
-            <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6L12 2z"/><circle cx="18" cy="5" r="2"/><path d="M4 18l3-3"/><path d="M17 14l3 3"/></svg></div>
+            <div class="svc-card-top">
+              <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6L12 2z"/><circle cx="18" cy="5" r="2"/><path d="M4 18l3-3"/><path d="M17 14l3 3"/></svg></div>
+            </div>
             <h3 data-i18n="svc5_title">Design graphique</h3>
             <p data-i18n="svc5_desc">Logos, affiches, posts réseaux sociaux et identité visuelle pour une image de marque cohérente.</p>
-            <a href="graphic-design/index.html" class="btn btn-outline btn-sm svc-details-btn" data-i18n="svc_details_btn">Détails</a>
+            <a href="graphic-design/index.html" class="svc-details-btn" data-i18n="svc_details_btn">Détails</a>
           </article>
           <article class="svc-card reveal">
-            <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+            <div class="svc-card-top">
+              <div class="svc-card-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+            </div>
             <h3 data-i18n="svc6_title">Automatisation & CRM</h3>
             <p data-i18n="svc6_desc">Gagnez du temps en automatisant vos tâches répétitives et vos processus métier.</p>
-            <a href="automation/index.html" class="btn btn-outline btn-sm svc-details-btn" data-i18n="svc_details_btn">Détails</a>
+            <a href="automation/index.html" class="svc-details-btn" data-i18n="svc_details_btn">Détails</a>
           </article>
         </div>
         <div class="services-cta-wrap reveal">
@@ -459,7 +495,7 @@
     <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
   </a>
 
-  <script src="js/i18n.js?v=20260712e"></script>
+  <script src="js/i18n.js?v=20260712m"></script>
   <script src="js/projects.js?v=20260712"></script>
   <script src="js/main.js?v=20260712"></script>
 </body>
